@@ -1,0 +1,120 @@
+.component-home-top .jumbotron {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://stmed.net/sites/default/files/styles/1920x1080/public/airport-wallpapers-28369-9278667.jpg?itok=q2GZFCAp");
+    height: 700px;
+    margin-bottom: 0;
+}
+
+.component-home-top .flight-form {
+    margin: auto;
+}
+
+.component-home-alert .alert-container {
+    background-color: #FFDA00;
+    padding: 10px;
+}
+
+.component-home-alert .alert-container p {
+    font-size: 20px;
+}
+
+.component-home-about .col-sm {
+    padding: 0;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.container {
+    margin: 0;
+}
+
+.flight-form {
+    width: 88%;
+}
+
+.component-home-about .row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.component-home-about .about-entry img {
+    height: 150px;
+}
+
+.component-home-about img {
+    width: 200%;
+}
+
+.component-home-about .col-sm span {
+    margin: auto 35px;
+}
+
+.flightTile {
+    display: flex;
+    flex-direction: column;
+    color: rgb(22, 22, 22);
+    background-color: mintcream;
+    margin: 20px auto;
+    border: 1px solid wheat;
+    border-radius: 15px;
+    box-shadow: 0 1px 1px 3px rgba(240, 236, 236, 0.5);
+    width: 85vw;
+}
+
+.flight1 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.flight2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+.flightTileMain {
+    display: flex;
+    align-content: center;
+    color: darkgrey;
+    background-color: mintcream;
+    margin: 10px;
+    width: 80vw;
+}
+
+.bothFlights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(82, 79, 79);
+    width: 20%;
+}
+
+@media only screen and (min-width: 768px) {
+    .component-home-top .flight-form {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 319px) {
+    .component-home-about img {
+        width: 222%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .component-home-about img {
+        width: 100%;
+    }
+    .component-home-top .flight-form {
+        width: 40%;
+    }
+}

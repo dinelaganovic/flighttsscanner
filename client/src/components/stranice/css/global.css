@@ -1,0 +1,77 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .box {
+            width: 333px;
+            margin: 10px;
+            padding: 10px;
+            float: left;
+        }
+        
+        .clearboth {
+            clear: both;
+        }
+        
+        .Search {
+            background-color: white;
+            margin: 0 auto;
+            position: relative;
+            display: flex;
+            padding-top: 30px;
+            padding-left: 35%
+        }
+        
+        .SearchSpan {
+            width: 15%;
+            border: 1px solid #1C76D2;
+            background: #1C76D2;
+            padding-top: 4px;
+            text-align: center;
+            color: #fff;
+            border-radius: 5px 0 0 5px;
+            font-size: 20px;
+        }
+        
+        .SearchInput {
+            width: 30%;
+            border: 3px solid #1C76D2;
+            border-left: none;
+            padding: 5px;
+            border-radius: 0 5px 5px 0;
+            outline: none;
+        }
+        
+        .flights {
+            background-color: rgb(14, 14, 39);
+        }
+        
+        .search-bar {
+            padding-top: 50px;
+            padding-left: 200px;
+            padding-right: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .lista {
+            background-color: white;
+            border-radius: 2px solid black;
+        }
+        
+        .input {
+            cursor: pointer;
+        }
+        
+        .whisperer__link:hover {
+            background-color: rgb(201, 174, 174);
+            margin-left: 5px;
+        }
+        
+        @media screen and (max-width: 960px) {
+            .search-bar {
+                padding: 20px;
+            }
+        }
