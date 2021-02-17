@@ -1,4 +1,4 @@
-# flighttsscanner
+# FlightsScannerApp
 
 ~MERN Stack - FlightsScanner App
 
